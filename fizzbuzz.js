@@ -1,4 +1,6 @@
 //es6 fizzbuzz
+
+
 const fizzBuzzCheck = (length=15,fizzNum=3,buzzNum=5, i=1) => {
 
     let resultStr;
@@ -16,9 +18,11 @@ const fizzBuzzCheck = (length=15,fizzNum=3,buzzNum=5, i=1) => {
     }
 };
 
-fizzBuzzCheck();
+const output = fizzBuzzCheck(process.argv[3], process.argv[4], process.argv[5], process.argv[6]);
 
-module.exports.fizzBuzzCheck = fizzBuzzCheck;
+module.exports.output = output;
+
+
 
 
 
