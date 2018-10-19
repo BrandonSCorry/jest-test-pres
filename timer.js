@@ -2,9 +2,9 @@ function countdown(time, progressCallback, doneCallback) {
   progressCallback(time);
   setTimeout(function() {
     if( time > 1) {
-      countdown(time-1, progressCallback, doneCallback); //<- We've commented out this part!
+      countdown(time-1, progressCallback, doneCallback);
     } else {
-      doneCallback(); //<- And this part also!!
+      doneCallback();
     }
   }, 1000);
 }
