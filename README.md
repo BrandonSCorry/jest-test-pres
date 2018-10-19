@@ -22,7 +22,7 @@ _timers.spec.js_ - followed this tutorial https://www.jstwister.com/post/unit-te
 
 -> timer mock info: https://jestjs.io/docs/en/timer-mocks.html
 
-_fizzbuzz.js_ - CLI, takes input into fizzbuzz function and outputs based on input params
+_fizzbuzz.js_ - takes input into fizzbuzz function and outputs based on input params
 
 you can run `node fizzbuzz.js fizzBuzzCheck` to run the function with the default parameters or
 you can input your own parameters:
