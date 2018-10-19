@@ -1,0 +1,19 @@
+{
+  "name": "unit-testing-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-jest": "^23.6.0",
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
