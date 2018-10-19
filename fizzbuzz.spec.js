@@ -17,17 +17,16 @@ const fzbz = [
 
 const fizzbuzz = require('./fizzbuzz.js');
 
-describe('fizzbuzz suite', async () => {
+describe('fizzbuzz suite', () => {
 
 
   test('function exists', async () => {
     expect.assertions(1);
-    const data = await
-    expect(fizzbuzz).toBeDefined();
+    await expect(fizzbuzz.fizzBuzzCheck()).resolves.toBeDefined();
   });
 
   test('run fizzbuzz to num 15', async () => {
-    const fizzBuzz15 = await fizzbuzz.fizzBuzzCheck(1,15);
-    expect(fizzBuzz15).toEqual(fzbz);
+    expect.assertions(1);
+    await expect(fizzbuzz.fizzBuzzCheck(1,15)).resolves.toEqual(fzbz);
   });
 });

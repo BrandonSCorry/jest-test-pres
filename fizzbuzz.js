@@ -1,23 +1,22 @@
 //es6 fizzbuzz
-const fizzBuzzCheck = (length=100,fizzNum=3,buzzNum=5, i=1) => {
-    return new Promise((resolve, reject) => {
-      let resultStr;
+const fizzBuzzCheck = (length=15,fizzNum=3,buzzNum=5, i=1) => {
 
-      for(i;i<=length;i++){
+    let resultStr;
 
-        resultStr = '';
+    for(i;i<=length;i++){
 
-        const fizz = i % fizzNum === 0;
+      resultStr = '';
 
-        const buzz = i % buzzNum === 0;
+      const fizz = i % fizzNum === 0;
 
-        const evalFizzBuzz = () => fizz && buzz? resultStr = 'FizzBuzz' : fizz? resultStr = 'Fizz' : buzz? resultStr = 'Buzz' : resultStr = parseInt(i);
-        console.log(resultStr);
-        evalFizzBuzz;
-      }
-    })
+      const buzz = i % buzzNum === 0;
 
+      const evalFizzBuzz = fizz && buzz? resultStr = 'FizzBuzz' : fizz? resultStr = 'Fizz' : buzz? resultStr = 'Buzz' : resultStr = parseInt(i);
+      console.log(resultStr);
+    }
 };
+
+fizzBuzzCheck();
 
 module.exports.fizzBuzzCheck = fizzBuzzCheck;
 
