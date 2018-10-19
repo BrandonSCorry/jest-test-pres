@@ -13,3 +13,5 @@ console.log("\nsubstr(1) " + input.substr(1));
 
 console.log("charAt(0) " + input.charAt(0));
 
+console.log("combined " + input);
+
