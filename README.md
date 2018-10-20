@@ -37,5 +37,5 @@ p3 = buzz number   (the default is 5)
 
 p4 = index         (the default is 1)
 
-### Example usage : `node fizzbuzz.js checkFizzBuzz 50 4 7 5` 
+### Example usage : `node fizzbuzz.js fizzBuzzCheck 50 4 7 5` 
 
