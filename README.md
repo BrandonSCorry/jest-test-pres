@@ -8,7 +8,7 @@ Google Slides: https://docs.google.com/presentation/d/1i490IM59bIn5GiNJ_zxyuKIJE
 ###### dependencies: npm, babel-jest, make-runnable
 ###### devDependencies: jest
 
-#### user guide
+### user guide
 
 
 
